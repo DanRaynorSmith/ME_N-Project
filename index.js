@@ -9,7 +9,7 @@ const beerRoutes = require('./routes/beerRoutes');
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb://localhost:27017/petes-beer', { useNewUrlParser: true },
+mongoose.connect('mongodb+srv://admin:pass@cluster0.2d9yv.mongodb.net/petes-beers?retryWrites=true&w=majority', { useNewUrlParser: true },
     (error) => {
         if (error) {
             console.log("Can't connect to database");
