@@ -1,19 +1,9 @@
-pipeline{
-        agent any
-        stages{
-            stage('Build'){
-                steps{
-                    sh '''exit
-                    echo ${pwd}
-                    git pull origin setup-front-end
-                    su - jenkins'''
-                    echo "Pipeline successful"
-                    }
-                }
-             stage('Success'){
-                steps{
-                       echo "Pipeline successful"
-                     }
-               }
-        }
-}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum auctor tellus vulputate pulvinar. Duis sed magna in velit tempor eleifend eu ut ipsum. Nullam a vestibulum erat. Vivamus ultricies hendrerit lorem eu feugiat. Maecenas vel orci venenatis, convallis dui sit amet, aliquam libero. Morbi lobortis lacus sit amet sapien tincidunt lobortis. Vivamus gravida tristique elit, ut pellentesque ligula pellentesque at. In hac habitasse platea dictumst. Morbi sodales hendrerit turpis, sit amet suscipit nisi gravida nec.
+
+Vestibulum sit amet sollicitudin leo. Vivamus ac ipsum tincidunt massa tincidunt dictum. Proin suscipit ex mauris, nec fringilla diam posuere vel. Quisque lacinia mi nec odio volutpat, sed fringilla lorem ornare. Cras vulputate vel tortor sed ullamcorper. Ut pharetra dolor est, a dictum enim elementum a. Fusce vel neque mi. Quisque nisl est, congue eget urna blandit, tincidunt vehicula leo. Morbi euismod lorem quam. Nullam dolor ipsum, commodo a interdum eu, venenatis sed lacus. Fusce imperdiet, lectus at posuere blandit, arcu massa bibendum nibh, eget iaculis massa orci ut felis.
+
+Etiam nec ipsum sed justo blandit aliquam nec in nulla. Curabitur laoreet leo libero, id congue massa volutpat vitae. In placerat porttitor nibh, eget rutrum justo tincidunt nec. Donec fermentum a enim non cursus. Vestibulum condimentum placerat maximus. Fusce vulputate ligula urna, nec mollis nunc aliquet at. Curabitur auctor in tellus quis ullamcorper. Pellentesque tincidunt lectus ac aliquet placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis lorem ut facilisis vehicula. Sed dictum metus ut nulla faucibus accumsan. Pellentesque a lacus quis nunc tristique placerat at id velit. Nullam quis nisl lobortis, porta ante vel, tincidunt leo.
+
+Vivamus egestas tempus elementum. Donec finibus eros vitae sapien suscipit, eget aliquet nisl gravida. Sed vestibulum, ligula sed pellentesque efficitur, enim libero condimentum quam, quis fringilla augue velit id purus. Fusce eu ornare dolor. Maecenas enim lorem, luctus ut auctor quis, tristique gravida leo. Proin in nisl vitae quam commodo bibendum at eget nulla. Mauris ac fermentum ipsum. Morbi ac pulvinar lacus. Sed interdum placerat finibus.
+
+Aliquam vel nunc ipsum. Nullam eleifend nec odio in consequat. Sed viverra, metus eget viverra vehicula, leo neque volutpat nibh, vel ullamcorper arcu nisl at ante. Fusce sollicitudin porta orci, ac accumsan sem. Proin ut elit nulla. Suspendisse varius cursus facilisis. In mattis aliquam hendrerit. Aliquam ac euismod erat, vel blandit felis. Morbi in viverra odio. Phasellus interdum justo eu malesuada venenatis.
